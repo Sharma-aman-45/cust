@@ -64,7 +64,7 @@ const Services = () => {
                 ref={ref}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.8, delay: index * 0.1 }}
+                // transition={{ duration: 0.8, delay: index * 0.1 }}
                 className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow "
               >
                 <div className="text-primary dark:text-white text-3xl mb-4">{service.icon}</div>
